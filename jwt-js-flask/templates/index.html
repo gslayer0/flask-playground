@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Checker</title>
+</head>
+    <body>
+        <div class="container" style="border-color: red;border-radius: 100em;"">
+            <label for="nama">Username</label>
+            <input id="nama" name="nama" type="text">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <button type="button" id="btn-login">login</button>
+            <p id="login-info"></p>
+            <hr>
+            <button type="button" id="btn-check">user check</button>
+            <p id="user-info"></p>
+        </div>
+
+
+        <script src='{{url_for("static", filename="index.js")}}''></script>
+    </body>
+</html>
